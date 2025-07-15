@@ -1,7 +1,7 @@
 [project]
 name = "rei"
 version = "0.1.0"
-description = "Add your description here"
+description = "A lightweight library that compresses any context into a fixed 128-character encrypted string + decryption instructions, enabling unlimited context for any LLM."
 readme = "README.md"
 requires-python = ">=3.13"
 authors = [
@@ -10,13 +10,15 @@ authors = [
 maintainers = [
     { name = "Victor Ohachor", email = "vohachor@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "llmrelic",
+]
 
 [project.urls]
 Homepage = ""
 Documentation = ""
-Repository = ""
-Issues = ""
+Repository = "https://github.com/OVECJOE/rei"
+Issues = "https://github.com/OVECJOE/rei/issues"
 
 [dependency-groups]
 dev = [
