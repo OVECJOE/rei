@@ -1,53 +1,16 @@
-# Modern Python Boilerplate
-This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.  
-Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>    
+# Rei Documentation
 
-# Pre-Requisites
-This project use [UV](https://github.com/astral-sh/uv) and [Make](https://gnuwin32.sourceforge.net/packages/make.htm), they should be installed.  
-
-# Features
-A global `Makefile` to run all the commands. You can run `make help` to see all the available commands.
-
-- **Python Management**
-    - UV for python version management `.python-version`
-    - UV for dependency management `pyproject.toml`
-    - src/package structure
-    - Usage of Project Script to directly call the package like `$ rei`
-- **Continuous Integration `make allci`**
-  - Ruff for linting `make check`
-  - Ruff for formatting `make format`
-  - Ty for type checking `make type`
-  - Pytest for testing `make test`
-  - Pytest-cov for testing coverage `make cov`
-  - Pre-commit hooks to make some checks and formatting code before commits `make commit`
-- **Documentation**
-  - Mkdocs for documentation building with Markdown `make doc`
-  - Automatic build of the API Reference page
-  - Pre-configured GitHub Action / Gitlab CI for publishing the documentation on Github pages / Gitlab page
-- **Running, Publishing and Deploying**
-  - Build the pacakge with UV `make build`
-  - Publish to PyPi with Twine `make publish`
-  - Dockerfile to run in a container `make dockerbuild` and `make dockerrun`
-  - DevContainer pre-configured. `.devcontainer/devcontainer.json`, working with PyCharm
-
-# How to use
-1. Delete this README.md to replace by you package one.
-2. Replace all occurrence of `rei` and `rei` and `Rei` by your pacakge name. Including folder names in src/.
-3. Get familiar with `make help`, it will show you all the available commands.
-
-***
-
-## Readme Sample for your pacakge
-
-# MyPackage
-This is my package. It does some cool stuff.
+A lightweight library that compresses any context into a fixed 128-character encrypted string + decryption instructions, enabling unlimited context for any LLM.
 
 ## Installation
-From PyPi: `pip install my_package`
+
+From PyPi: `pip install rei`
 From source: `pip install -e .`
 
 ## Usage
-Example 1: `my_package --help`
+
+Example 1: `rei --help`
 
 ## Contact
-Creator and Maintainer: [**Your Name**, Your Title](your website) <your@email.com>
+
+Creator and Maintainer: [**Victor Ohachor**, Your Title](https://github.com/OVECJOE) <your@email.com>

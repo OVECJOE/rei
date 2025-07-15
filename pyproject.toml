@@ -5,10 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 authors = [
-    { name = "Corentin Meyer", email = "contact@cmeyer.fr" },
+    { name = "Victor Ohachor", email = "vohachor@gmail.com" },
 ]
 maintainers = [
-    { name = "Corentin Meyer", email = "contact@cmeyer.fr" }
+    { name = "Victor Ohachor", email = "vohachor@gmail.com" }
 ]
 dependencies = []
 
