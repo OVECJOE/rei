@@ -1,1 +1,1 @@
- 
+from .detector import ContentDetector
