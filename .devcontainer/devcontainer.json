@@ -5,10 +5,7 @@
     "context": "."
   },
   "forwardPorts": [8000],
-  "postCreateCommand": "uv sync && make commit",
+  "postCreateCommand": "uv sync",
   "remoteUser": "root",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  },
   "workspaceFolder": "/workspaces/rei"
 }

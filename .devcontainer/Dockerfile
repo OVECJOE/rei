@@ -13,4 +13,9 @@ RUN apt update && \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+# Configure git for container use
+RUN git config --global user.email "vohachor@gmail.com" && \
+    git config --global user.name "OVECJOE" && \
+    git config --global init.defaultBranch main
+
 WORKDIR /workspaces/rei
