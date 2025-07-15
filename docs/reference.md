@@ -1,6 +1,6 @@
 # API Reference
 
-::: modern_python_boilerplate.main
+::: rei.main
     handler: python
     options:
       show_root_heading: true

@@ -1,5 +1,5 @@
 {
-  "name": "Modern Python Boilerplate DevContainer",
+  "name": "Rei",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -10,5 +10,5 @@
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
-  "workspaceFolder": "/workspaces/modern-python-boilerplate"
+  "workspaceFolder": "/workspaces/rei"
 }

@@ -1,6 +1,6 @@
 ---
 title: Home
-description: ModernPythonBoilerplate
+description: Rei
 hide:
   - navigation
 ---
@@ -15,7 +15,7 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
   - UV for python version management `.python-version`
   - UV for dependency management `pyproject.toml`
   - src/package structure
-  - Usage of Project Script to directly call the package like `$ modern_python_boilerplate`
+  - Usage of Project Script to directly call the package like `$ rei`
 - **Continuous Integration `make allci`**
   - Ruff for linting `make check`
   - Ruff for formatting `make format`
@@ -34,5 +34,5 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
 
 # How to use
 1. Delete this README.md to replace by you package one.
-2. Replace all occurrence of `modern_python_boilerplate` and `modern-python-boilerplate` and `ModernPythonBoilerplate` by your pacakge name. Including folder names in src/.
+2. Replace all occurrence of `rei` and `rei` and `Rei` by your pacakge name. Including folder names in src/.
 3. Get familiar with `make help`, it will show you all the available commands.

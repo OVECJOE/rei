@@ -13,4 +13,4 @@ RUN apt update && \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /workspaces/modern-python-boilerplate
+WORKDIR /workspaces/rei
