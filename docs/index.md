@@ -5,10 +5,12 @@ hide:
   - navigation
 ---
 
-# Modern Python Boilerplate
+## Rei
+
 This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.
 
-# Features
+## Features
+
 A global `Makefile` to run all the commands. You can run `make help` to see all the available commands.
 
 - **Python Management**
@@ -32,7 +34,8 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
   - Dockerfile to run in a container `make dockerbuild` and `make dockerrun`
   - DevContainer pre-configured. `.devcontainer/devcontainer.json`
 
-# How to use
+## How to use
+
 1. Delete this README.md to replace by you package one.
 2. Replace all occurrence of `rei` and `rei` and `Rei` by your pacakge name. Including folder names in src/.
 3. Get familiar with `make help`, it will show you all the available commands.
